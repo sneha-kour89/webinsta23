@@ -1,0 +1,133 @@
+@import url("https://fonts.googleleapis.com/css2?family=Comorant:ital@1&family=Poppins:ital@1display=swap");
+
+
+
+
+*{
+    padding:0;
+    margine:0;
+    color:white;
+    border:0;
+}
+body{
+    font-family:'Comorant',serif;
+    font-family:'poppins',sans-serif;
+    display:flex;
+    justify-content:center;
+    align-item:center;
+    height:100;
+    background-image:url('img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-positon: center;
+}
+.center{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    border-radius: 20px;
+    backdrop-filter: blue(10px)
+    background-color: ;
+}
+p{
+    font-size: 10px;
+    color: rgba(255,255,255,0.747);
+    margin-border: 20px;
+}
+h1{
+    
+    font-weight: bold;
+    color: #0072ff;
+    margin-bottom: 20px;
+}
+
+.form-tag{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.form-box{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    background: rgba(0 0 0 /10%);
+    padding-left: 20px;
+    outline: none;
+    font-weight: bold;
+}
+input::placeholder{
+    color: white;
+    font-weight: normal;
+}
+
+.check-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-item: center;
+    font-size: 15px;
+}
+
+.check-box a{
+    color: #0072ff;
+    font-weight: 500;
+
+}
+
+
+button {
+    padding: 12px 30px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius; 100px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 52%, #00c6ff 100%);
+}
+
+button:hover{
+    background-color:#6fc5ff;
+    box-shadow:0 0 20px #6fc5ff50;
+    trasform:scale(1.1);
+}
+
+button:active{
+    background-color:#3d9cf;
+    transition:all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    trasform:scale(0.98);
+}{
+
+transition:all 0.5s;
+-webkit-transition: all 0.5s;
+}
+button:hover{
+    background-color:#6fc5ff;
+    box-shadow:0 0 20px #6fc5ff50;
+    trasform:scale(1.1);
+}
+
+button:active{
+    background-color:#3d9cf;
+    transition:all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    trasform:scale(0.98);
+}
+
+.register{
+    margine-top:20px;
+    font-size:15px;
+}
+
+.register a{
+    color:#0072ff;
+    font-weight:500;
+}
